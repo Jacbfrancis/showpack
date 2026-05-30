@@ -6,7 +6,7 @@ export default function MainLayout() {
   const [movieData, setMovieData] = useState([]);
 
   useEffect(() => {
-    const movieData = fetch();
+    //const movieData = fetch();
   }, []);
 
   return (
