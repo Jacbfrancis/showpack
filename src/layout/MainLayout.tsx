@@ -1,9 +1,9 @@
+import { useEffect } from "react";
 import { Outlet } from "react-router";
 import Navbar from "../components/Navbar";
-import { useEffect, useState } from "react";
 
 export default function MainLayout() {
-  const [movieData, setMovieData] = useState([]);
+  // const [movieData, setMovieData] = useState([]);
 
   useEffect(() => {
     //const movieData = fetch();
